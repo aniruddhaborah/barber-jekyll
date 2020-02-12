@@ -1,8 +1,17 @@
 ---
 layout: default
+image: /assets/images/QB2.jpg
 pagination:
   enabled: true
 ---
+{% if page.image %}
+<div class="post__img">
+  <div>
+    <figure class="absolute-bg" style="background-image: url('{{ page.image }}');"></figure>
+  </div>
+</div>
+{% endif %}
+
 <!-- The main content area -->
 <div class="posts">
   <div class="grid-xlarge">
