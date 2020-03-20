@@ -4,9 +4,13 @@
       <figure class="posts__img">
         <img src="{{ post.image }}" alt="{{ post.title }}" data-aos="fade-in" itemprop="image"/>
       </figure>
+    {% elsif post.video_image %}
+      <figure class="posts__img">
+        <img src="{{ post.video_image }}" alt="{{ post.title }}" data-aos="fade-in" itemprop="image"/>
+      </figure>
     {% endif %}
     <div>
-      <h2 class="posts__text"><strong itemprop="name">{{ post.title }}</strong> — <span itemprop="description">{{ post.content | strip_html | truncatewords: 35, "" }}</span></h2>
+      <h2 class="posts__text"><strong itemprop="name">{{ post.title }}</strong>. <span itemprop="description">{{ post.description | strip_html | truncatewords: 30, " ..." }}</span></h2>
     </div>
   </a>
 </article>
