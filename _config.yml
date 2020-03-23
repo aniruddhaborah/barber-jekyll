@@ -7,7 +7,7 @@ google_analytics:
 name: Quan Bay
 title: QUAN BAY
 description: >
-  Quan Bay
+  S T A Y L I K E T H I S F O R E V E R
 url: https://quanbay.info
 twitter_username: quanbay
 default_img: /assets/images/seo.jpg
@@ -33,7 +33,7 @@ mailchimp_input: b_66ddf555dab480e6a8606430b_89b3ee034f
 author:
   - name: Quan Bay
     bio:
-    url: http://thomasvaeth.com
+    url: https://quanbay.info
 
 # Pagination settings
 pagination:
